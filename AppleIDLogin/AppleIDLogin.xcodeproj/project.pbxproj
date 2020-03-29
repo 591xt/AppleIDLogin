@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9428EF0242B2E9600A87362 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9428EEF242B2E9600A87362 /* AppDelegate.m */; };
+		D9428EF3242B2E9600A87362 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9428EF2242B2E9600A87362 /* SceneDelegate.m */; };
+		D9428EF6242B2E9600A87362 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9428EF5242B2E9600A87362 /* ViewController.m */; };
+		D9428EF9242B2E9600A87362 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9428EF7242B2E9600A87362 /* Main.storyboard */; };
+		D9428EFB242B2E9800A87362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9428EFA242B2E9800A87362 /* Assets.xcassets */; };
+		D9428EFE242B2E9800A87362 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9428EFC242B2E9800A87362 /* LaunchScreen.storyboard */; };
+		D9428F01242B2E9800A87362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9428F00242B2E9800A87362 /* main.m */; };
+		D9428F0B242B2E9900A87362 /* AppleIDLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9428F0A242B2E9900A87362 /* AppleIDLoginTests.m */; };
+		D9428F16242B2E9900A87362 /* AppleIDLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9428F15242B2E9900A87362 /* AppleIDLoginUITests.m */; };
+		D9428F25242B2F3600A87362 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9428F24242B2F3600A87362 /* AuthenticationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9428F07242B2E9900A87362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9428EE3242B2E9500A87362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9428EEA242B2E9600A87362;
+			remoteInfo = AppleIDLogin;
+		};
+		D9428F12242B2E9900A87362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9428EE3242B2E9500A87362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9428EEA242B2E9600A87362;
+			remoteInfo = AppleIDLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9428EEB242B2E9600A87362 /* AppleIDLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleIDLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9428EEE242B2E9600A87362 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9428EEF242B2E9600A87362 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9428EF1242B2E9600A87362 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D9428EF2242B2E9600A87362 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D9428EF4242B2E9600A87362 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9428EF5242B2E9600A87362 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9428EF8242B2E9600A87362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9428EFA242B2E9800A87362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9428EFD242B2E9800A87362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9428EFF242B2E9800A87362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9428F00242B2E9800A87362 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9428F06242B2E9900A87362 /* AppleIDLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleIDLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9428F0A242B2E9900A87362 /* AppleIDLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleIDLoginTests.m; sourceTree = "<group>"; };
+		D9428F0C242B2E9900A87362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9428F11242B2E9900A87362 /* AppleIDLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleIDLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9428F15242B2E9900A87362 /* AppleIDLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleIDLoginUITests.m; sourceTree = "<group>"; };
+		D9428F17242B2E9900A87362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9428F24242B2F3600A87362 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		D9428F26242B318E00A87362 /* AppleIDLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleIDLogin.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9428EE8242B2E9600A87362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9428F25242B2F3600A87362 /* AuthenticationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9428F03242B2E9900A87362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9428F0E242B2E9900A87362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9428EE2242B2E9500A87362 = {
+			isa = PBXGroup;
+			children = (
+				D9428EED242B2E9600A87362 /* AppleIDLogin */,
+				D9428F09242B2E9900A87362 /* AppleIDLoginTests */,
+				D9428F14242B2E9900A87362 /* AppleIDLoginUITests */,
+				D9428EEC242B2E9600A87362 /* Products */,
+				D9428F23242B2F3600A87362 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9428EEC242B2E9600A87362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9428EEB242B2E9600A87362 /* AppleIDLogin.app */,
+				D9428F06242B2E9900A87362 /* AppleIDLoginTests.xctest */,
+				D9428F11242B2E9900A87362 /* AppleIDLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9428EED242B2E9600A87362 /* AppleIDLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D9428F26242B318E00A87362 /* AppleIDLogin.entitlements */,
+				D9428EEE242B2E9600A87362 /* AppDelegate.h */,
+				D9428EEF242B2E9600A87362 /* AppDelegate.m */,
+				D9428EF1242B2E9600A87362 /* SceneDelegate.h */,
+				D9428EF2242B2E9600A87362 /* SceneDelegate.m */,
+				D9428EF4242B2E9600A87362 /* ViewController.h */,
+				D9428EF5242B2E9600A87362 /* ViewController.m */,
+				D9428EF7242B2E9600A87362 /* Main.storyboard */,
+				D9428EFA242B2E9800A87362 /* Assets.xcassets */,
+				D9428EFC242B2E9800A87362 /* LaunchScreen.storyboard */,
+				D9428EFF242B2E9800A87362 /* Info.plist */,
+				D9428F00242B2E9800A87362 /* main.m */,
+			);
+			path = AppleIDLogin;
+			sourceTree = "<group>";
+		};
+		D9428F09242B2E9900A87362 /* AppleIDLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9428F0A242B2E9900A87362 /* AppleIDLoginTests.m */,
+				D9428F0C242B2E9900A87362 /* Info.plist */,
+			);
+			path = AppleIDLoginTests;
+			sourceTree = "<group>";
+		};
+		D9428F14242B2E9900A87362 /* AppleIDLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9428F15242B2E9900A87362 /* AppleIDLoginUITests.m */,
+				D9428F17242B2E9900A87362 /* Info.plist */,
+			);
+			path = AppleIDLoginUITests;
+			sourceTree = "<group>";
+		};
+		D9428F23242B2F3600A87362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9428F24242B2F3600A87362 /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9428EEA242B2E9600A87362 /* AppleIDLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9428F1A242B2E9900A87362 /* Build configuration list for PBXNativeTarget "AppleIDLogin" */;
+			buildPhases = (
+				D9428EE7242B2E9600A87362 /* Sources */,
+				D9428EE8242B2E9600A87362 /* Frameworks */,
+				D9428EE9242B2E9600A87362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleIDLogin;
+			productName = AppleIDLogin;
+			productReference = D9428EEB242B2E9600A87362 /* AppleIDLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9428F05242B2E9900A87362 /* AppleIDLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9428F1D242B2E9900A87362 /* Build configuration list for PBXNativeTarget "AppleIDLoginTests" */;
+			buildPhases = (
+				D9428F02242B2E9900A87362 /* Sources */,
+				D9428F03242B2E9900A87362 /* Frameworks */,
+				D9428F04242B2E9900A87362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9428F08242B2E9900A87362 /* PBXTargetDependency */,
+			);
+			name = AppleIDLoginTests;
+			productName = AppleIDLoginTests;
+			productReference = D9428F06242B2E9900A87362 /* AppleIDLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9428F10242B2E9900A87362 /* AppleIDLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9428F20242B2E9900A87362 /* Build configuration list for PBXNativeTarget "AppleIDLoginUITests" */;
+			buildPhases = (
+				D9428F0D242B2E9900A87362 /* Sources */,
+				D9428F0E242B2E9900A87362 /* Frameworks */,
+				D9428F0F242B2E9900A87362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9428F13242B2E9900A87362 /* PBXTargetDependency */,
+			);
+			name = AppleIDLoginUITests;
+			productName = AppleIDLoginUITests;
+			productReference = D9428F11242B2E9900A87362 /* AppleIDLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9428EE3242B2E9500A87362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = ejiang;
+				TargetAttributes = {
+					D9428EEA242B2E9600A87362 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					D9428F05242B2E9900A87362 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = D9428EEA242B2E9600A87362;
+					};
+					D9428F10242B2E9900A87362 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = D9428EEA242B2E9600A87362;
+					};
+				};
+			};
+			buildConfigurationList = D9428EE6242B2E9500A87362 /* Build configuration list for PBXProject "AppleIDLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9428EE2242B2E9500A87362;
+			productRefGroup = D9428EEC242B2E9600A87362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9428EEA242B2E9600A87362 /* AppleIDLogin */,
+				D9428F05242B2E9900A87362 /* AppleIDLoginTests */,
+				D9428F10242B2E9900A87362 /* AppleIDLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9428EE9242B2E9600A87362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9428EFE242B2E9800A87362 /* LaunchScreen.storyboard in Resources */,
+				D9428EFB242B2E9800A87362 /* Assets.xcassets in Resources */,
+				D9428EF9242B2E9600A87362 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9428F04242B2E9900A87362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9428F0F242B2E9900A87362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9428EE7242B2E9600A87362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9428EF6242B2E9600A87362 /* ViewController.m in Sources */,
+				D9428EF0242B2E9600A87362 /* AppDelegate.m in Sources */,
+				D9428F01242B2E9800A87362 /* main.m in Sources */,
+				D9428EF3242B2E9600A87362 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9428F02242B2E9900A87362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9428F0B242B2E9900A87362 /* AppleIDLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9428F0D242B2E9900A87362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9428F16242B2E9900A87362 /* AppleIDLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9428F08242B2E9900A87362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9428EEA242B2E9600A87362 /* AppleIDLogin */;
+			targetProxy = D9428F07242B2E9900A87362 /* PBXContainerItemProxy */;
+		};
+		D9428F13242B2E9900A87362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9428EEA242B2E9600A87362 /* AppleIDLogin */;
+			targetProxy = D9428F12242B2E9900A87362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9428EF7242B2E9600A87362 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9428EF8242B2E9600A87362 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9428EFC242B2E9800A87362 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9428EFD242B2E9800A87362 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9428F18242B2E9900A87362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9428F19242B2E9900A87362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9428F1B242B2E9900A87362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleIDLogin/AppleIDLogin.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62FNS2Q4N7;
+				INFOPLIST_FILE = AppleIDLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.51xt.AppleIDLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9428F1C242B2E9900A87362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleIDLogin/AppleIDLogin.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62FNS2Q4N7;
+				INFOPLIST_FILE = AppleIDLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.51xt.AppleIDLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9428F1E242B2E9900A87362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppleIDLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.51xt.AppleIDLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleIDLogin.app/AppleIDLogin";
+			};
+			name = Debug;
+		};
+		D9428F1F242B2E9900A87362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppleIDLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.51xt.AppleIDLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleIDLogin.app/AppleIDLogin";
+			};
+			name = Release;
+		};
+		D9428F21242B2E9900A87362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppleIDLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.51xt.AppleIDLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleIDLogin;
+			};
+			name = Debug;
+		};
+		D9428F22242B2E9900A87362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppleIDLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.51xt.AppleIDLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleIDLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9428EE6242B2E9500A87362 /* Build configuration list for PBXProject "AppleIDLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9428F18242B2E9900A87362 /* Debug */,
+				D9428F19242B2E9900A87362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9428F1A242B2E9900A87362 /* Build configuration list for PBXNativeTarget "AppleIDLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9428F1B242B2E9900A87362 /* Debug */,
+				D9428F1C242B2E9900A87362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9428F1D242B2E9900A87362 /* Build configuration list for PBXNativeTarget "AppleIDLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9428F1E242B2E9900A87362 /* Debug */,
+				D9428F1F242B2E9900A87362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9428F20242B2E9900A87362 /* Build configuration list for PBXNativeTarget "AppleIDLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9428F21242B2E9900A87362 /* Debug */,
+				D9428F22242B2E9900A87362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9428EE3242B2E9500A87362 /* Project object */;
+}
